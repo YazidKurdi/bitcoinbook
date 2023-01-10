@@ -128,11 +128,9 @@ image::images/mbc2_0402.png["ecc-curve"]
 Bitcoin uses a specific elliptic curve and set of mathematical constants, as defined in a standard called +secp256k1+, established by the National Institute of Standards and Technology (NIST). The +secp256k1+ curve is defined by the following function, which produces an elliptic curve:
 
 [latexmath]
-++++
-\begin{equation}
-$$ y^2 = (x^3 + 7) \mod{\mathbb{F}_p} $$
-\end{equation}
-++++
+
+\[\begin{equation} {y^2 = (x^3 + 7)}~\text{over}~(\mathbb{F}_p) \end{equation}\]
+
 
 or
 
